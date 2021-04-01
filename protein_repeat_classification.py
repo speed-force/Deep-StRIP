@@ -210,7 +210,8 @@ def accuracy(y_pred, y_actual, topk=(1, )):
 # In[84]:
 
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 model = Net()
 learning_rate=0.0001
 
