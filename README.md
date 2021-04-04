@@ -1,6 +1,5 @@
-# Deep-PRIDM
-A Deep Learning method for Protein Repeat Identification using Distance Matrix analysis
-![Deep-PRIDM_logo_2](https://user-images.githubusercontent.com/18621779/113302665-f1808b00-931d-11eb-89f5-4e180607f987.png)
+# Deep-StRIP
+Deep Learning Approach for Structural Repeat Identification in Proteins
 
 ## Getting Started
 
@@ -23,4 +22,4 @@ python3 residue_classification.py
 ```
 
 ## Introduction
-Deep-PRIDM is Deep Learning method for Protein Repeat Identification using Distance Matrix analysis. The method uses the structural information encoded in the internal distances of the distance matrix to train a Convolutional Neural Network to predict the Repeat Type (Class III/ Class IV/ Non-repeat), Repeat Region with start/end boundaries and Copy number of a protein structure.
+Deep-StRIP is a Deep Learning Approach for Structural Repeat Identification in Proteins. The method uses the structural information encoded in the internal distances of the distance matrix to train a Convolutional Neural Network to predict the Repeat Type (Class III/ Class IV/ Non-repeat), Repeat Region with start/end boundaries and Copy number of a protein structure.
