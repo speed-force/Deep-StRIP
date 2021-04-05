@@ -618,8 +618,8 @@ def ranges_repbndry(p, bndryres):
 def print_bound_region(pdb_label_dic, merge_cutoff, bndry_len, cutoff_stray_len):
     
     f = open("results/residue_classification_ouput.txt", "w+")
-    f.write("--------------- Deep-PRIDM Prediction --------------------------\n")
-    print("--------------- Deep-PRIDM Prediction --------------------------\n")
+    f.write("--------------- Deep-StRIP Prediction --------------------------\n")
+    print("--------------- Deep-StRIP Prediction --------------------------\n")
 
     cnt = 0
     true_cn = []
